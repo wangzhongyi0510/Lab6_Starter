@@ -1,5 +1,4 @@
 // main.js
-
 // Here is where the recipes that you will fetch.
 // Feel free to add your own here for part 2, if they are local files simply add their path as a string.
 const recipes = [
@@ -20,12 +19,12 @@ async function init() {
   // fetch the recipes and wait for them to load
   let fetchSuccessful = await fetchRecipes();
   // if they didn't successfully load, quit the function
+  console.log(recipeData[recipes[0]]);
+
   if (!fetchSuccessful) {
     console.log('Recipe fetch unsuccessful');
     return;
   };
-
-  console.log('data');
   // Add the first three recipe cards to the page
   createRecipeCards();
   // Make the "Show more" button functional
@@ -47,7 +46,7 @@ async function fetchRecipes() {
   return new Promise((resolve, reject) => {
     for(let i = 0; i < recipes.length; i++){
       fetch(recipes[i])
-        .then(response => response.json)
+        .then(response => response.json())
         .then(data => {recipeData[recipes[i]] = data;
           if((Object.keys(recipeData)).length == recipes.length){
               resolve(true);
@@ -66,8 +65,12 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
   let main = document.querySelector('main');
 
-  for(let i in recipeData){
-    main.appendChild(new RecipeCard(data(i)));
+  for(let i = 0; i < 3; i++){
+    let recipeCard = customElements.get('recipe-card')
+    card = new recipeCard();
+    card.data = recipeData[recipes[i]];
+
+    main.appendChild(card);
   }
 
   // Part 1 Expose - TODO
