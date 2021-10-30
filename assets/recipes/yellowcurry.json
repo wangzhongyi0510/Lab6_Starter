@@ -1,0 +1,278 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://tastesbetterfromscratch.com/#organization",
+        "name": "Tastes Better From Scratch",
+        "url": "https://tastesbetterfromscratch.com/",
+        "sameAs": [
+          "https://facebook.com/tastesbetterfromscratch/",
+          "https://www.instagram.com/tastesbetterfromscratch/",
+          "https://www.youtube.com/channel/UCuyxVXV2sdFuYYzOD32TlFw",
+          "https://www.pinterest.com/betrfromscratch/",
+          "https://twitter.com/Betrfromscratch"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://tastesbetterfromscratch.com/#logo",
+          "inLanguage": "en-US",
+          "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/12/Circle-logo.jpg",
+          "contentUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/12/Circle-logo.jpg",
+          "width": 313,
+          "height": 316,
+          "caption": "Tastes Better From Scratch"
+        },
+        "image": {
+          "@id": "https://tastesbetterfromscratch.com/#logo"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://tastesbetterfromscratch.com/#website",
+        "url": "https://tastesbetterfromscratch.com/",
+        "name": "Tastes Better From Scratch",
+        "description": "Everything tastes better homemade!",
+        "publisher": {
+          "@id": "https://tastesbetterfromscratch.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://tastesbetterfromscratch.com/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://tastesbetterfromscratch.com/yellow-curry/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5.jpg",
+        "contentUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5.jpg",
+        "width": 683,
+        "height": 1024,
+        "caption": "Thai yellow curry in a bowl with white rice."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://tastesbetterfromscratch.com/yellow-curry/#webpage",
+        "url": "https://tastesbetterfromscratch.com/yellow-curry/",
+        "name": "Easy Yellow Curry recipe - Tastes Better from Scratch",
+        "isPartOf": {
+          "@id": "https://tastesbetterfromscratch.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://tastesbetterfromscratch.com/yellow-curry/#primaryimage"
+        },
+        "datePublished": "2019-12-14T22:28:41+00:00",
+        "dateModified": "2021-10-23T14:37:33+00:00",
+        "description": "This easy Thai Yellow Curry is made with chicken and vegetables and served over steamed rice. This recipe can easily be made vegan or vegetarian! ",
+        "breadcrumb": {
+          "@id": "https://tastesbetterfromscratch.com/yellow-curry/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://tastesbetterfromscratch.com/yellow-curry/"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://tastesbetterfromscratch.com/yellow-curry/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tastesbetterfromscratch.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Main Dish",
+            "item": "https://tastesbetterfromscratch.com/category/main-dish/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Yellow Curry"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://tastesbetterfromscratch.com/yellow-curry/#article",
+        "isPartOf": {
+          "@id": "https://tastesbetterfromscratch.com/yellow-curry/#webpage"
+        },
+        "author": {
+          "@id": "https://tastesbetterfromscratch.com/#/schema/person/3e648c62cb5b08e6f78b81f055191a33"
+        },
+        "headline": "Yellow Curry",
+        "datePublished": "2019-12-14T22:28:41+00:00",
+        "dateModified": "2021-10-23T14:37:33+00:00",
+        "wordCount": 1011,
+        "commentCount": 42,
+        "publisher": {
+          "@id": "https://tastesbetterfromscratch.com/#organization"
+        },
+        "image": {
+          "@id": "https://tastesbetterfromscratch.com/yellow-curry/#primaryimage"
+        },
+        "thumbnailUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5.jpg",
+        "articleSection": [
+          "Chicken",
+          "Main Dish",
+          "Thai"
+        ],
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+              "https://tastesbetterfromscratch.com/yellow-curry/#respond"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://tastesbetterfromscratch.com/#/schema/person/3e648c62cb5b08e6f78b81f055191a33",
+        "name": "Lauren Allen",
+        "image": {
+          "@type": "ImageObject",
+          "@id": "https://tastesbetterfromscratch.com/#personlogo",
+          "inLanguage": "en-US",
+          "url": "https://secure.gravatar.com/avatar/dc0dc9ed2f606a1bde316b7fff89c9a8?s=96&d=mm&r=g",
+          "contentUrl": "https://secure.gravatar.com/avatar/dc0dc9ed2f606a1bde316b7fff89c9a8?s=96&d=mm&r=g",
+          "caption": "Lauren Allen"
+        },
+        "description": "Welcome! I’m Lauren, a mom of four and lover of good food. Here you’ll find easy recipes and weeknight meal ideas made with real ingredients, with step-by-step photos and videos.",
+        "sameAs": [
+          "https://tastesbetterfromscratch.com/about/",
+          "https://www.facebook.com/Tastes-Better-From-Scratch-156826874478697/"
+        ],
+        "url": "https://tastesbetterfromscratch.com/about/"
+      },
+      {
+        "@context": "http://schema.org/",
+        "@type": "Recipe",
+        "name": "Yellow Curry",
+        "author": {
+          "@type": "Person",
+          "name": "Lauren Allen"
+        },
+        "description": "This easy Thai Yellow Curry is made with chicken and vegetables and served over steamed rice. This recipe can easily be made vegan or vegetarian! ",
+        "datePublished": "2019-12-14T16:28:41+00:00",
+        "image": [
+          "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5.jpg",
+          "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5-500x500.jpg",
+          "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5-500x375.jpg",
+          "https://tastesbetterfromscratch.com/wp-content/uploads/2019/12/Yellow-Curry-5-480x270.jpg"
+        ],
+        "video": {
+          "name": "Yellow Curry",
+          "description": "This easy Thai Yellow Curry is made with chicken and vegetables and served over steamed rice. This recipe can easily be made vegan or vegetarian!",
+          "thumbnailUrl": "https://content.jwplatform.com/thumbs/OGgDlijs-720.jpg",
+          "contentUrl": "https://content.jwplatform.com/videos/OGgDlijs.mp4",
+          "uploadDate": "2020-01-20T00:27:28.000Z",
+          "@type": "VideoObject"
+        },
+        "recipeYield": [
+          "4"
+        ],
+        "prepTime": "PT10M",
+        "cookTime": "PT40M",
+        "totalTime": "PT50M",
+        "recipeIngredient": [
+          "1 tablespoon oil",
+          "1/2 large onion (, chopped)",
+          "1 pound boneless skinless chicken breasts (, cut into bite-sized pieces)",
+          "2 medium gold potatoes ((or about 10 baby gold) ½’’ cubed)",
+          "1 large carrot (, thinly sliced)",
+          "3-4 Tablespoons yellow curry paste (*or homemade curry paste)",
+          "2 teaspoons freshly grated ginger",
+          "2 cloves garlic",
+          "27 ounces coconut milk ((2- 13.5 ounce cans))",
+          "2 teaspoons cornstarch",
+          "1 teaspoon fish sauce  ((optional))",
+          "1 Tablespoon lime juice",
+          "1.5 tablespoons brown sugar",
+          "Hot cooked rice (, for serving (white, jasmine, brown))",
+          "Garnish with fresh cilantro and/or siracha and serve over rice"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a large pot over medium low heat. Add the onion and saute for a few minutes until softened. Add the chicken, carrots, potatoes and cook for a minute or two. Add ginger, garlic and curry paste and saute for 3 minutes.",
+            "name": "Heat the oil in a large pot over medium low heat. Add the onion and saute for a few minutes until softened. Add the chicken, carrots, potatoes and cook for a minute or two. Add ginger, garlic and curry paste and saute for 3 minutes.",
+            "url": "https://tastesbetterfromscratch.com/yellow-curry/#wprm-recipe-25674-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add 1 ½ cans of coconut milk to the pot. Stir cornstarch into remaining ½ can of coconut milk and add to the pot.",
+            "name": "Add 1 ½ cans of coconut milk to the pot. Stir cornstarch into remaining ½ can of coconut milk and add to the pot.",
+            "url": "https://tastesbetterfromscratch.com/yellow-curry/#wprm-recipe-25674-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Bring to a boil. Reduce heat and simmer for 20-30 minutes or until the chicken and potatoes are cooked through.  Adjust the thickness of the curry by adding more water to thin, if needed.",
+            "name": "Bring to a boil. Reduce heat and simmer for 20-30 minutes or until the chicken and potatoes are cooked through.  Adjust the thickness of the curry by adding more water to thin, if needed.",
+            "url": "https://tastesbetterfromscratch.com/yellow-curry/#wprm-recipe-25674-step-0-2"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Stir in the fish sauce, brown sugar and lime juice. Simmer 5 more minutes.",
+            "name": "Stir in the fish sauce, brown sugar and lime juice. Simmer 5 more minutes.",
+            "url": "https://tastesbetterfromscratch.com/yellow-curry/#wprm-recipe-25674-step-0-3"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Serve with any type of rice (white, brown, and jasmine are my favorites) or over zoodles, spaghetti squash or quinoa.",
+            "name": "Serve with any type of rice (white, brown, and jasmine are my favorites) or over zoodles, spaghetti squash or quinoa.",
+            "url": "https://tastesbetterfromscratch.com/yellow-curry/#wprm-recipe-25674-step-0-4"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "45"
+        },
+        "recipeCategory": [
+          "Main Course"
+        ],
+        "recipeCuisine": [
+          "Thai"
+        ],
+        "keywords": "chicken yellow curry, vegan yellow curry, vegetarian yellow curry, yellow curry, yellow curry recipe",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "640 kcal",
+          "carbohydrateContent": "27 g",
+          "proteinContent": "31 g",
+          "fatContent": "48 g",
+          "saturatedFatContent": "37 g",
+          "cholesterolContent": "73 mg",
+          "sodiumContent": "298 mg",
+          "fiberContent": "3 g",
+          "sugarContent": "7 g",
+          "servingSize": "1 serving"
+        },
+        "@id": "https://tastesbetterfromscratch.com/yellow-curry/#recipe",
+        "isPartOf": {
+          "@id": "https://tastesbetterfromscratch.com/yellow-curry/#article"
+        },
+        "mainEntityOfPage": "https://tastesbetterfromscratch.com/yellow-curry/#webpage"
+      }
+    ]
+  }

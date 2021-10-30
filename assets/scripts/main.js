@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/cheesepie.json',
+  'assets/recipes/tacosauce.json',
+  'assets/recipes/yellowcurry.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -32,6 +35,20 @@ async function init() {
 
 async function fetchRecipes() {
   return new Promise((resolve, reject) => {
+    for(let i = 0; i < recipes.length; i++){
+      fetch(recipes[i])
+        .then(response => response.json())
+        .then(data => {
+          recipeData[recipes[i]] = data;
+          if((Object.keys(recipeData)).length == recipes.length){
+              resolve(true);
+          }
+        })
+        .catch((error) => reject(false))
+    }
+    
+
+
     // This function is called for you up above
     // From this function, you are going to fetch each of the recipes in the 'recipes' array above.
     // Once you have that data, store it in the 'recipeData' object. You can use whatever you like
@@ -54,6 +71,20 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+  let main = document.querySelector('main');
+
+
+  for(let i = 0; i < 3; i++){
+    //let recipeCard = customElements.get('recipe-card');
+    let recipeCard = document.createElement('recipe-card');
+    //console.log(recipeCard);
+    //card = new RecipeCard();
+
+    recipeCard.data = recipeData[recipes[i]];
+    //console.log(recipes[i]);
+
+    main.appendChild(recipeCard);
+  }
 }
 
 function bindShowMore() {
@@ -64,5 +95,52 @@ function bindShowMore() {
   // display it or not, so you don't need to fetch them again. Simply access them
   // in the recipeData object where you stored them/
 
+  var but = document.querySelector('button');
+  but.addEventListener('click', addOrDelete);
+
   // Part 2 Explore - TODO
 }
+function addOrDelete(){
+  let but = document.querySelector('button');
+  let main = document.querySelector('main');
+  if(but.innerText == 'Show more'){
+    for(let i = 3; i < 6; i++){
+      
+      let recipeCard = document.createElement('recipe-card');
+      recipeCard.data = recipeData[recipes[i]];
+  
+      main.appendChild(recipeCard);
+    }
+    but.innerText = 'Show less'
+  }else{
+    
+    for(let i = 3; i < 6; i++ ){
+
+      main.removeChild(main.childNodes[i]);
+    }
+    but.innerText = 'Show more';
+  }
+}
+
+/*
+
+    bool additional = false;
+
+    if(!additional):
+      button.eventlistener('click' =>
+        
+        do as part 1 intends
+          -loop on each additional card
+            -loading json from file
+            -create new recipeCard
+            -call data function
+            -append to main
+            -update innerhtml of button to "show less"
+            -additional = true
+      )
+    if(!additional):
+      button.eventlistener('click =.
+        close additional recipes
+        and switch back to "show more"
+      )
+  */
