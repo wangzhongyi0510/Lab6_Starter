@@ -5,8 +5,8 @@ const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
-  'assets/recipes/cheesepie.json',
-  'assets/recipes/tacosauce.json',
+  'assets/recipes/broccoli-salad.json',
+  'assets/recipes/vegbiryani.json',
   'assets/recipes/yellowcurry.json'
 ];
 
@@ -100,7 +100,8 @@ function addOrDelete(){
       
       let recipeCard = document.createElement('recipe-card');
       recipeCard.data = recipeData[recipes[i]];
-  
+      recipeCard.setAttribute('class', 'additional');
+      
       main.appendChild(recipeCard);
     }
     but.innerText = 'Show less'
@@ -108,7 +109,7 @@ function addOrDelete(){
     
     for(let i = 3; i < 6; i++ ){
 
-      main.removeChild(main.childNodes[i]);
+      main.removeChild(document.querySelector(".additional"));
     }
     but.innerText = 'Show more';
   }
