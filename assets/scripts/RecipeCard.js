@@ -143,17 +143,17 @@ class RecipeCard extends HTMLElement {
       // set image
       let rateImg = document.createElement('img');
       if(temp > 4){
-        rateImg.setAttribute('src', '/assets/images/icons/5-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/5-star.svg');
       }else if( temp > 3){
-        rateImg.setAttribute('src', '/assets/images/icons/4-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/4-star.svg');
       }else if( temp > 2){
-        rateImg.setAttribute('src', '/assets/images/icons/3-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/3-star.svg');
       }else if( temp > 1){
-        rateImg.setAttribute('src', '/assets/images/icons/2-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/2-star.svg');
       }else if(temp > 0){
-        rateImg.setAttribute('src', '/assets/images/icons/1-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/1-star.svg');
       }else{
-        rateImg.setAttribute('src', '/assets/images/icons/0-star.svg');
+        rateImg.setAttribute('src', 'assets/images/icons/0-star.svg');
       }
       let totalNum = document.createElement('span');
       temp = searchForKey(data, 'ratingCount');
