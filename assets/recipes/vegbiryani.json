@@ -1,0 +1,497 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.indianhealthyrecipes.com/#website",
+      "url": "https://www.indianhealthyrecipes.com/",
+      "name": "Swasthi&#039;s Recipes",
+      "description": "Indian food blog with easy Indian recipes",
+      "publisher": {
+        "@id": "https://www.indianhealthyrecipes.com/#/schema/person/2d7d264cdc5dc6602ee06a087cd3fcb0"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.indianhealthyrecipes.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg",
+      "contentUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg",
+      "width": 680,
+      "height": 510,
+      "caption": "veg biryani"
+    },
+    {
+      "@type": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#webpage",
+      "url": "https://www.indianhealthyrecipes.com/veg-biryani/",
+      "name": "Veg biryani recipe | How to make vegetable biryani - Swasthi&#039;s Recipes",
+      "isPartOf": {
+        "@id": "https://www.indianhealthyrecipes.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#primaryimage"
+      },
+      "datePublished": "2014-09-01T01:14:00+00:00",
+      "dateModified": "2020-05-28T03:37:02+00:00",
+      "description": "Veg biryani is an aromatic rice dish made with rice, veggies & spices. This vegetable biryani can be made in a Instant pot or pressure cooker",
+      "breadcrumb": {
+        "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960325414"
+        },
+        {
+          "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960343293"
+        },
+        {
+          "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960368027"
+        }
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.indianhealthyrecipes.com/veg-biryani/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.indianhealthyrecipes.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Recipes",
+          "item": "https://www.indianhealthyrecipes.com/recipes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rice Recipes",
+          "item": "https://www.indianhealthyrecipes.com/recipes/rice-recipes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Vegetable biryani - veg biryani"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#article",
+      "isPartOf": {
+        "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#webpage"
+      },
+      "author": {
+        "@id": "https://www.indianhealthyrecipes.com/#/schema/person/2d7d264cdc5dc6602ee06a087cd3fcb0"
+      },
+      "headline": "Veg biryani recipe (vegetable biryani)",
+      "datePublished": "2014-09-01T01:14:00+00:00",
+      "dateModified": "2020-05-28T03:37:02+00:00",
+      "wordCount": 4014,
+      "commentCount": 418,
+      "publisher": {
+        "@id": "https://www.indianhealthyrecipes.com/#/schema/person/2d7d264cdc5dc6602ee06a087cd3fcb0"
+      },
+      "image": {
+        "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/veg-biryani-vegetable-biryani.jpg",
+      "articleSection": [
+        "Latest",
+        "Lunch Recipes",
+        "Popular recipes",
+        "Rice Recipes",
+        "vegetarian"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.indianhealthyrecipes.com/veg-biryani/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Person",
+        "Organization"
+      ],
+      "@id": "https://www.indianhealthyrecipes.com/#/schema/person/2d7d264cdc5dc6602ee06a087cd3fcb0",
+      "name": "swasthi",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.indianhealthyrecipes.com/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/02/Swasthis-Recipes-AMP.png",
+        "contentUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/02/Swasthis-Recipes-AMP.png",
+        "width": 150,
+        "height": 150,
+        "caption": "swasthi"
+      },
+      "logo": {
+        "@id": "https://www.indianhealthyrecipes.com/#personlogo"
+      },
+      "description": "I\u2019m Swasthi Shreekanth, the recipe developer, food photographer &amp; food writer behind Swasthi's Recipes. My aim is to help you cook great Indian food with my time-tested recipes. After 2 decades of experience in practical Indian cooking I started this blog to help people cook better &amp; more often at home. Whether you are a novice or an experienced cook I am sure Swasthi\u2019s Recipes will assist you to enhance your cooking skills. Read more.."
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960325414",
+      "position": 1,
+      "url": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960325414",
+      "name": "What is the difference between pulao and biryani?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pulao is a one pot dish made via absorption method. But a traditional biryani is dum cooked in which parcooked rice is layered over meat. Ingredients like caramelized onions and saffron infused milk are key in a biryani which are usually not used in a pulao.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960343293",
+      "position": 2,
+      "url": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960343293",
+      "name": "How to keep biryani moist?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3 tips for a moist biryani \u2013 Do not let the rice cool and dry out after par-cooking. It has to be moist and straight away go for dum cooking while it is still hot. Trap the steam well by sealing the pot fully. Pour saffron infused milk on top.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960368027",
+      "position": 3,
+      "url": "https://www.indianhealthyrecipes.com/veg-biryani/#faq-question-1617960368027",
+      "name": "Is biryani healthy?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Homemade biryani is healthy since it has no preservatives or additives like color. However it is high in calories due to ghee, nuts, raisins and other ingredients used. So eating it in moderation is important.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Veg biryani recipe | How to make vegetable biryani",
+      "author": {
+        "@type": "Person",
+        "name": "Swasthi"
+      },
+      "description": "veg biryani is an aromatic rice dish made with basmati rice, spices &amp; mixed veggies. This quick recipe will give you a flavorful vegetable biryani that you can make just under 30 mins. Recipe instructions for IP, pressure cooker &amp; pot.",
+      "datePublished": "2014-09-01T01:14:00+00:00",
+      "image": [
+        "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg",
+        "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe-500x500.jpg",
+        "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe-500x375.jpg",
+        "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe-480x270.jpg"
+      ],
+      "video": {
+        "name": "Veg Biryani recipe in cooker",
+        "description": "veg biryani recipe - https://www.indianhealthyrecipes.com/veg-biryani/",
+        "uploadDate": "2019-02-26T03:39:49+00:00",
+        "duration": "PT1M44S",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YnX4qD2cU1Y/hqdefault.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=YnX4qD2cU1Y",
+        "embedUrl": "https://www.youtube.com/embed/YnX4qD2cU1Y?feature=oembed",
+        "@type": "VideoObject"
+      },
+      "recipeYield": [
+        "2"
+      ],
+      "prepTime": "PT5M",
+      "cookTime": "PT25M",
+      "totalTime": "PT30M",
+      "recipeIngredient": [
+        "1 cup basmati rice ((soaked for at least 20 mins))",
+        "1 medium onion  ((\u00bd cup thinly sliced))",
+        "1   green chili  ((slit or chopped) (skip for kids))",
+        "1 teaspoon ginger garlic paste",
+        "2 tablespoons mint leaves (chopped (pudina))",
+        "2 tablespoons coriander leaves  (chopped (cilantro))",
+        "\u00bd  teaspoon red chilli powder ((or paprika, adjust to taste))",
+        "\u00bc teaspoon turmeric",
+        "\u00be to 1  teaspoon garam masala ((adjust to taste) or Biryani Masala Powder)",
+        "1 small tomato ((optional) chopped)",
+        "1\u00be cups water (or thin coconut milk  (1\u00bc cups water for IP, 2 cups for regular pot))",
+        "1\u00bd to 2 tablespoons Oil ((or ghee))",
+        "3 tablespoon curd or yogurt",
+        "\u215b teaspoon salt for veggies (+ \u00bc tsp for water)",
+        "1 small potato or beans (cubed )",
+        "1 medium carrot  (chopped (gajar))",
+        "\u2153 cup green peas ((matar))",
+        "1  bay leaf ((tej patta))",
+        "1 inch cinnamon ((dalchini))",
+        "3  cloves (( laung))",
+        "3  green cardamoms ((elaichi))",
+        "\u00bd teaspoon shahi jeera ((or cumin seeds))",
+        "1  star anise ((optional, but recommended))",
+        "10  fried cashews (for garnish (optional))",
+        "1 tablespoon lemon juice ((optional))"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToSection",
+          "name": "Preparation for veg biryani",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Soak rice for at least 20 minutes. Drain the water and set aside.\u00a0",
+              "name": "Soak rice for at least 20 minutes. Drain the water and set aside.\u00a0",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-0-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Chop all the veggies, coriander and mint leaves. Keep these aside as well.",
+              "name": "Chop all the veggies, coriander and mint leaves. Keep these aside as well.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-0-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "If using cauliflower keep them slightly larger.",
+              "name": "If using cauliflower keep them slightly larger.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-0-2"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "How to make veg biryani",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Add oil to a hot pressure cooker or heavy bottom pot.",
+              "name": "Add oil to a hot pressure cooker or heavy bottom pot.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Next add bay leaf, star anise, shahi jeera, cloves, cardamoms &amp; cinnamon. Saute for 1 to 2 mins.",
+              "name": "Next add bay leaf, star anise, shahi jeera, cloves, cardamoms &amp; cinnamon. Saute for 1 to 2 mins.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add sliced onions and slit green chilies. Fry them stirring often until the onions turn evenly golden or light brown.\u00a0",
+              "name": "Add sliced onions and slit green chilies. Fry them stirring often until the onions turn evenly golden or light brown.\u00a0",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Next add ginger garlic paste and saute for about a minute or until the raw smell has gone off.",
+              "name": "Next add ginger garlic paste and saute for about a minute or until the raw smell has gone off.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add all the chopped vegetables and fry for about 2 minutes.",
+              "name": "Add all the chopped vegetables and fry for about 2 minutes.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Next add tomatoes, \u215b teaspoon salt, yogurt, coriander leaves, mint leaves,red chilli powder, turmeric and garam masala.",
+              "name": "Next add tomatoes, \u215b teaspoon salt, yogurt, coriander leaves, mint leaves,red chilli powder, turmeric and garam masala.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Mix all of these and fry on a high flame for 2 to 3 mins. The tomatoes should break down completely and the raw smell disappear.",
+              "name": "Mix all of these and fry on a high flame for 2 to 3 mins. The tomatoes should break down completely and the raw smell disappear.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-6"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Reduce the flame to low. Drain the water from the rice completely and spread it in a layer evenly over the veggies.",
+              "name": "Reduce the flame to low. Drain the water from the rice completely and spread it in a layer evenly over the veggies.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-7"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Measure the water or coconut milk to a separate bowl &amp; add \u00bc tsp salt. Mix well and taste the water. It has to be slightly salty.",
+              "name": "Measure the water or coconut milk to a separate bowl &amp; add \u00bc tsp salt. Mix well and taste the water. It has to be slightly salty.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-8"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Pour the salted water across the sides or edges of the pot.",
+              "name": "Pour the salted water across the sides or edges of the pot.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-9"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "If you do not mix up everything then the veg biryani will cook in layers. (However you can also mix up everything and cook just like it is done normally.)",
+              "name": "If you do not mix up everything then the veg biryani will cook in layers. (However you can also mix up everything and cook just like it is done normally.)",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-10"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Optional - Sprinkle 1 tsp ghee, 2 tbsps chopped mint leaves, handful of fried onions &amp; saffron soaked milk. (refer notes)",
+              "name": "Optional - Sprinkle 1 tsp ghee, 2 tbsps chopped mint leaves, handful of fried onions &amp; saffron soaked milk. (refer notes)",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-11"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "For pressure cooking: Cover the cooker and pressure cook for 1 whistle on a medium high flame.Turn off the stove. For al dente non mushy veg biryani, I release the pressure manually after 1 to 2 mins using a wooden spatula.\u00a0When the pressure releases, open the lid and fluff up veg biryani with a fork.",
+              "name": "For pressure cooking: Cover the cooker and pressure cook for 1 whistle on a medium high flame.Turn off the stove. For al dente non mushy veg biryani, I release the pressure manually after 1 to 2 mins using a wooden spatula.\u00a0When the pressure releases, open the lid and fluff up veg biryani with a fork.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-12"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "If cooking in a pot, cook covered on a low flame until the water is absorbed and the veg biryani is cooked fully. Turn off the stove &amp; rest for 15 mins.\u00a0Serve veg biryani with raita or salan.",
+              "name": "If cooking in a pot, cook covered on a low flame until the water is absorbed and the veg biryani is cooked fully. Turn off the stove &amp; rest for 15 mins.\u00a0Serve veg biryani with raita or salan.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-13"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Optionally squeeze lemon juice while serving.",
+              "name": "Optionally squeeze lemon juice while serving.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-1-14"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Instant pot vegetable biryani",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Press the SAUTE button on your IP and pour oil or ghee to the steel insert.",
+              "name": "Press the SAUTE button on your IP and pour oil or ghee to the steel insert.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add thinly sliced onions. Spread them to a single layer and saute occasionally until uniformly deep golden. Remove half of these and set aside for later.",
+              "name": "Add thinly sliced onions. Spread them to a single layer and saute occasionally until uniformly deep golden. Remove half of these and set aside for later.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Then add the whole spices and green chili. Then add the ginger garlic paste and saute until a nice smell comes out.",
+              "name": "Then add the whole spices and green chili. Then add the ginger garlic paste and saute until a nice smell comes out.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add tomatoes, chopped veggies, mint, coriander leaves and sprinkle \u215b teaspoon salt. Saute until the tomatoes breakdown. This takes about 1 to 2 mins.",
+              "name": "Add tomatoes, chopped veggies, mint, coriander leaves and sprinkle \u215b teaspoon salt. Saute until the tomatoes breakdown. This takes about 1 to 2 mins.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Stir in the garam masala and red chilli powder.",
+              "name": "Stir in the garam masala and red chilli powder.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Press CANCEL button &amp; add yogurt. Deglaze by scraping the bottom of the pot with a spatula. This releases any bits of food stuck there.",
+              "name": "Press CANCEL button &amp; add yogurt. Deglaze by scraping the bottom of the pot with a spatula. This releases any bits of food stuck there.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Spread the veggies to a single layer. Next layer the drained rice and level it.",
+              "name": "Spread the veggies to a single layer. Next layer the drained rice and level it.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-6"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "In another bowl, stir in \u00bc teaspoon salt &amp; 1\u00bc cup water and taste it. It has to be slightly salty. If needed add more.",
+              "name": "In another bowl, stir in \u00bc teaspoon salt &amp; 1\u00bc cup water and taste it. It has to be slightly salty. If needed add more.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-7"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Pour the water starting from the sides and then in the center. Do not mix. Ensure all of the rice is under the water.",
+              "name": "Pour the water starting from the sides and then in the center. Do not mix. Ensure all of the rice is under the water.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-8"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Secure the IP with the lid. Position the steam release valve to sealing position.",
+              "name": "Secure the IP with the lid. Position the steam release valve to sealing position.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-9"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Press pressure cook/ manual (set to high pressure) &amp; set the timer for 5 mins. If you double or triple the recipe then set to low pressure with the same cook time. (Alternately you can pressure cook for 4 mins on high pressure setting and wait for 8 mins. Then release the rest manually.)",
+              "name": "Press pressure cook/ manual (set to high pressure) &amp; set the timer for 5 mins. If you double or triple the recipe then set to low pressure with the same cook time. (Alternately you can pressure cook for 4 mins on high pressure setting and wait for 8 mins. Then release the rest manually.)",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-10"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "When the IP finishes, for aldente cooked vegetable biryani quick release the pressure manually. For softer rice, wait for 5 to 7 mins (natural pressure release) and then release the rest manually with the help of a spoon.  Garnish with fried onions. Serve with Raita.",
+              "name": "When the IP finishes, for aldente cooked vegetable biryani quick release the pressure manually. For softer rice, wait for 5 to 7 mins (natural pressure release) and then release the rest manually with the help of a spoon.  Garnish with fried onions. Serve with Raita.",
+              "url": "https://www.indianhealthyrecipes.com/veg-biryani/#wprm-recipe-38404-step-2-11"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.95",
+        "ratingCount": "685"
+      },
+      "recipeCategory": [
+        "Main"
+      ],
+      "recipeCuisine": [
+        "Indian"
+      ],
+      "keywords": "instant pot vegetable biryani, veg biryani, veg biryani recipe, vegetable biryani",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 g",
+        "calories": "420 kcal",
+        "carbohydrateContent": "70 g",
+        "proteinContent": "7 g",
+        "fatContent": "11 g",
+        "sodiumContent": "96 mg",
+        "fiberContent": "4 g",
+        "sugarContent": "2 g"
+      },
+      "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#recipe",
+      "isPartOf": {
+        "@id": "https://www.indianhealthyrecipes.com/veg-biryani/#article"
+      },
+      "mainEntityOfPage": "https://www.indianhealthyrecipes.com/veg-biryani/#webpage"
+    }
+  ]
+}
