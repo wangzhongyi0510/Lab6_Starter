@@ -33,26 +33,12 @@ async function init() {
 }
 
 async function fetchRecipes() {
-<<<<<<< HEAD
+
+
+
+
+  
   // This function is called for you up above
-=======
-  return new Promise((resolve, reject) => {
-    for(let i = 0; i < recipes.length; i++){
-      fetch(recipes[i])
-        .then(response => response.json())
-        .then(data => {
-          recipeData[recipes[i]] = data;
-          if((Object.keys(recipeData)).length == recipes.length){
-              resolve(true);
-          }
-        })
-        .catch((error) => reject(false))
-    }
-    
-
-
-    // This function is called for you up above
->>>>>>> Zhongyi
     // From this function, you are going to fetch each of the recipes in the 'recipes' array above.
     // Once you have that data, store it in the 'recipeData' object. You can use whatever you like
     // for the keys. Once everything in the array has been successfully fetched, call the resolve(true)
@@ -88,22 +74,6 @@ function createRecipeCards() {
   for(let i = 0; i < 3; i++){
     let recipeCard = document.createElement('recipe-card');
     recipeCard.data = (recipeData[recipes[i]]);
-
-    main.appendChild(recipeCard);
-  }
-
-  // Part 1 Expose - TODO
-  let main = document.querySelector('main');
-
-
-  for(let i = 0; i < 3; i++){
-    //let recipeCard = customElements.get('recipe-card');
-    let recipeCard = document.createElement('recipe-card');
-    //console.log(recipeCard);
-    //card = new RecipeCard();
-
-    recipeCard.data = recipeData[recipes[i]];
-    //console.log(recipes[i]);
 
     main.appendChild(recipeCard);
   }
