@@ -19,8 +19,6 @@ async function init() {
   // fetch the recipes and wait for them to load
   let fetchSuccessful = await fetchRecipes();
   // if they didn't successfully load, quit the function
-  console.log(recipeData[recipes[0]]);
-
   if (!fetchSuccessful) {
     console.log('Recipe fetch unsuccessful');
     return;
@@ -66,11 +64,10 @@ function createRecipeCards() {
   let main = document.querySelector('main');
 
   for(let i = 0; i < 3; i++){
-    let recipeCard = customElements.get('recipe-card')
-    card = new recipeCard();
-    card.data = recipeData[recipes[i]];
+    let recipeCard = document.createElement('recipe-card');
+    recipeCard.data = (recipeData[recipes[i]]);
 
-    main.appendChild(card);
+    main.appendChild(recipeCard);
   }
 
   // Part 1 Expose - TODO
