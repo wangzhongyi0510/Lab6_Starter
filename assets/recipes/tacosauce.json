@@ -1,0 +1,86 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Creamy Chipotle Fish Taco Sauce",
+    "author": {
+      "@type": "Person",
+      "name": "Douglas Cullen"
+    },
+    "description": "The easiest, tastiest fish taco sauce ever. Really!  It&#039;s mild, yet tangy, smoky and smooth and really brings out the flavor in fish without overpowering it. Use with battered or grilled fish tacos. Give it a try!",
+    "datePublished": "2017-03-24T20:40:15+00:00",
+    "image": [
+      "https://mexicanfoodjournal.com/wp-content/uploads/2017/03/Chipotle-Fish-Taco-Sauce-Recipe.jpg"
+    ],
+    "recipeYield": [
+      "8",
+      "8 servings"
+    ],
+    "prepTime": "PT5M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "1/2 cup mayonnaise",
+      "1/2 cup sour cream or crema",
+      "2  chipotle peppers in adobo",
+      "1 clove garlic",
+      "1 tbsp. Mexican oregano",
+      "juice of 3 small Mexican limes (key limes)",
+      "1 tsp. sea salt"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Finely chop the chipotle pepper and the garlic clove.",
+        "name": "Finely chop the chipotle pepper and the garlic clove.",
+        "url": "https://mexicanfoodjournal.com/chipotle-fish-taco-sauce/#wprm-recipe-3556-step-0-0"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Place all of the ingredients in a mixing bowl including the lime juice. When you add the oregano crumble it with your fingers to break it into smaller pieces.",
+        "name": "Place all of the ingredients in a mixing bowl including the lime juice. When you add the oregano crumble it with your fingers to break it into smaller pieces.",
+        "url": "https://mexicanfoodjournal.com/chipotle-fish-taco-sauce/#wprm-recipe-3556-step-0-1"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir briskly with a fork.",
+        "name": "Stir briskly with a fork.",
+        "url": "https://mexicanfoodjournal.com/chipotle-fish-taco-sauce/#wprm-recipe-3556-step-0-2"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Refrigerate the sauce 2 hours before serving.",
+        "name": "Refrigerate the sauce 2 hours before serving.",
+        "url": "https://mexicanfoodjournal.com/chipotle-fish-taco-sauce/#wprm-recipe-3556-step-0-3"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir before serving.",
+        "name": "Stir before serving.",
+        "url": "https://mexicanfoodjournal.com/chipotle-fish-taco-sauce/#wprm-recipe-3556-step-0-4"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4",
+      "ratingCount": "20"
+    },
+    "recipeCategory": [
+      "Sauce"
+    ],
+    "recipeCuisine": [
+      "Mexican"
+    ],
+    "keywords": "chipotle, crema, fish tacos, salsa, Sauce, sour cream",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "128 kcal",
+      "carbohydrateContent": "2 g",
+      "proteinContent": "1 g",
+      "fatContent": "13 g",
+      "saturatedFatContent": "3 g",
+      "cholesterolContent": "13 mg",
+      "sodiumContent": "439 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "servingSize": "1 serving"
+    }
+  }

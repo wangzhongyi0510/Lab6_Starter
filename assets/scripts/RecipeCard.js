@@ -2,6 +2,10 @@ class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
     super();
+<<<<<<< HEAD
+=======
+    let shadow = this.attachShadow({mode: 'open'});
+>>>>>>> Zhongyi
 
     const shadow = this.attatchShadow({mode: 'open'});
     // You'll want to attach the shadow DOM here
@@ -89,6 +93,124 @@ class RecipeCard extends HTMLElement {
 
     // Here's the root element that you'll want to attach all of your other elements to
     const card = document.createElement('article');
+
+    let myImg = document.createElement('img');
+    
+    // set src
+    let temp = searchForKey(data, 'thumbnailUrl');
+    myImg.setAttribute('src', temp);
+
+    // set alt 
+    temp = searchForKey(data, 'headline');
+    myImg.setAttribute('alt', temp);
+
+    card.appendChild(myImg);
+
+    let myTitle = document.createElement('p');
+    
+    //set class title
+    myTitle.setAttribute('class', 'title')
+    
+    let my_a = document.createElement('a');
+    let url = getUrl(data);
+    my_a.setAttribute('href', url);
+    my_a.innerText = temp;
+    
+    myTitle.appendChild(my_a);
+    card.appendChild(myTitle);
+
+    // set organization
+    let myOrg = document.createElement('p');
+    myOrg.setAttribute('class', 'organization');
+    temp = getOrganization(data);
+    myOrg.innerText = temp;
+
+    card.appendChild(myOrg);
+
+    // set review
+    let myReview = document.createElement('div');
+    myReview.setAttribute('class', 'rating');
+
+    temp = searchForKey(data, 'aggregateRating');
+    if(temp == undefined ){
+      // without a rating
+      let mySpan = document.createElement('span');
+      mySpan.innerText = 'No Reviews';
+      myReview.appendChild(mySpan);
+      card.appendChild(myReview);
+
+    }else{
+      // with a rating
+      let mySpan = document.createElement('span');
+      temp = searchForKey(data, 'ratingValue');
+      mySpan.innerText = temp;
+      // set image
+      let rateImg = document.createElement('img');
+      if(temp > 4){
+        rateImg.setAttribute('src', '/assets/images/icons/5-star.svg');
+      }else if( temp > 3){
+        rateImg.setAttribute('src', '/assets/images/icons/4-star.svg');
+      }else if( temp > 2){
+        rateImg.setAttribute('src', '/assets/images/icons/3-star.svg');
+      }else if( temp > 1){
+        rateImg.setAttribute('src', '/assets/images/icons/2-star.svg');
+      }else if(temp > 0){
+        rateImg.setAttribute('src', '/assets/images/icons/1-star.svg');
+      }else{
+        rateImg.setAttribute('src', '/assets/images/icons/0-star.svg');
+      }
+      let totalNum = document.createElement('span');
+      temp = searchForKey(data, 'ratingCount');
+      totalNum.innerText = temp;
+      myReview.appendChild(mySpan);
+      myReview.appendChild(rateImg);
+      myReview.appendChild(totalNum);
+      card.appendChild(myReview);
+    }
+
+    //set time
+    let myTime = document.createElement('time');
+    temp = searchForKey(data, 'totalTime');
+    temp = convertTime(temp);
+    myTime.innerText = temp;
+    card.appendChild(myTime);
+
+    //set ingredient
+    let myIngre = document.createElement('p');
+    myIngre.setAttribute('class', 'ingredients');
+    temp = searchForKey(data, 'recipeIngredient');
+    temp = createIngredientList(temp);
+    myIngre.innerText = temp;
+    card.appendChild(myIngre);
+
+    //console.log(searchForKey(data, 'aggregateRating'));
+    //console.log(undefined == undefined );
+
+    //shadow.append(article);
+    
+
+    
+    //let shadow = this.attachShadow({mode: 'open'});
+    this.shadowRoot.appendChild(card);
+    this.shadowRoot.appendChild(styleElem);
+    //article.shawdowRoot;
+    //styleElem.shadowRoot;
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+    
+    //card.appendChild()
 
     // Some functions that will be helpful here:
     //    document.createElement()
